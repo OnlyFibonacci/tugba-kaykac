@@ -27,14 +27,14 @@
     "copyrightSuffix": "Hassas endüstriyel mükemmellik.",
     "madeBy": "Made by SaruPixel",
     "phoneDisplay": "0 533 300 18 96",
-    "email": "tugbakaykac@gmail.com",
+    "email": "tugbakaykac@hotmail.com",
     "serviceLinks": [
       { "label": "Otomasyon Sistemleri", "hrefKey": "homeServices" },
       { "label": "Teknik Danışmanlık", "hrefKey": "contact" },
       { "label": "Parça Envanteri", "hrefKey": "homeServices" }
     ],
     "connectLinks": [
-      { "label": "LinkedIn", "href": "#" },
+      { "label": "LinkedIn", "href": "https://www.linkedin.com/in/tuğba-kaykaç-5167b9221" },
       { "label": "İletişim Desteği", "hrefKey": "contact" },
       { "label": "Telefon", "hrefKey": "tel", "display": "0 533 300 18 96" }
     ]

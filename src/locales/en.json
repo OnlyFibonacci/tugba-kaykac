@@ -27,14 +27,14 @@
     "copyrightSuffix": "Precision Industrial Excellence.",
     "madeBy": "Made by SaruPixel",
     "phoneDisplay": "0 533 300 18 96",
-    "email": "tugbakaykac@gmail.com",
+    "email": "tugbakaykac@hotmail.com",
     "serviceLinks": [
       { "label": "Automation Systems", "hrefKey": "homeServices" },
       { "label": "Technical Consulting", "hrefKey": "contact" },
       { "label": "Parts Inventory", "hrefKey": "homeServices" }
     ],
     "connectLinks": [
-      { "label": "LinkedIn", "href": "#" },
+      { "label": "LinkedIn", "href": "https://www.linkedin.com/in/tuğba-kaykaç-5167b9221" },
       { "label": "Contact Support", "hrefKey": "contact" },
       { "label": "Phone", "hrefKey": "tel", "display": "0 533 300 18 96" }
     ]
