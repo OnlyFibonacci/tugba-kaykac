@@ -27,7 +27,7 @@
     "copyrightSuffix": "Hassas endüstriyel mükemmellik.",
     "madeBy": "Made by SaruPixel",
     "phoneDisplay": "0 533 300 18 96",
-    "email": "info@tugbakaykac.com",
+    "email": "tugbakaykac@gmail.com",
     "serviceLinks": [
       { "label": "Otomasyon Sistemleri", "hrefKey": "homeServices" },
       { "label": "Teknik Danışmanlık", "hrefKey": "contact" },
@@ -44,7 +44,7 @@
       "badge": "Endüstriyel Mükemmellik",
       "titleHtml": "<span class=\"text-secondary-fixed\">Endüstriyel otomasyon</span> ve yedek parçada küresel çözümler",
       "lead": "Endüstriyel otomasyon, küresel teknik servis ve yüksek kaliteli yedek parça tedariği konusunda uzmanız.",
-      "leadSecondary": "We specialize in industrial automation, global technical services, and high-quality spare parts supply.",
+      "leadSecondary": "Endüstriyel otomasyon, küresel teknik servis ve yüksek kaliteli yedek parça tedariğinde yanınızdayız.",
       "ctaPrimary": "Hizmetlerimiz",
       "ctaSecondary": "Teknik Özellikler",
       "heroImgAlt": "Endüstriyel otomasyon"
@@ -52,36 +52,36 @@
     "servicesSection": {
       "title": "Hassas Hizmetler",
       "subtitle": "Yeni nesil endüstriyel verimlilik için tasarlanmış mühendislik çözümleri.",
-      "subtitleSecondary": "Engineering solutions tailored for the next generation of industrial efficiency.",
+      "subtitleSecondary": "Yeni nesil endüstriyel verimlilik için mühendislik çözümleri.",
       "counter": "01—03",
       "cards": [
         {
           "title": "Endüstriyel Otomasyon",
           "body": "Kesintisiz üretim akışları için gelişmiş kontrol sistemleri ve PLC entegrasyonu.",
-          "footer": "Industrial Automation",
+          "footer": "Endüstriyel Otomasyon",
           "icon": "settings_input_component"
         },
         {
           "title": "Küresel Teknik Servis",
           "body": "Uluslararası endüstriyel altyapılar için saha uzmanlığı ve uzaktan tanı.",
-          "footer": "Global Technical Services",
+          "footer": "Global Teknik Servis",
           "icon": "public"
         },
         {
           "title": "Yedek Parça Tedariği",
           "body": "Kritik endüstriyel makineler için yüksek performanslı bileşenlerin güvenilir tedariki.",
-          "footer": "Spare Parts Supply",
+          "footer": "Yedek Parça Tedariği",
           "icon": "inventory_2"
         }
       ]
     },
     "aboutPreview": {
-      "imageAlt": "Teknik hassasiyet",
+      "imageAlt": "Teknik çizim, hassas ölçüm aletleri ve mühendislik bileşenleri",
       "refLabel": "Hassasiyet Ref. 0402",
       "kicker": "Kurumsal otorite",
       "title": "Mutlak hassasiyetle mühendislik güveni.",
-      "body": "Tuğba Kaykaç Mühendislik olarak hassasiyet ve güvenilirlik taahhüdümüz yalnızca bir standart değil—kimliğimizdir. Karmaşık endüstriyel zorluklar ile sürdürülebilir teknik mükemmellik arasındaki boşluğu dolduruyoruz.",
-      "quote": "\"Our commitment to precision and reliability isn't just a standard—it's our identity.\"",
+      "body": "Tuğba Kaykaç Mühendislik olarak hassasiyet ve güvenilirlik taahhüdümüz yalnızca bir standart değil—kimliğimizdir.",
+      "quote": "Mühendislikte güven ve mutlak hassasiyet bizim kimliğimizdir. Karmaşık endüstriyel zorluklar ile sürdürülebilir teknik mükemmellik arasındaki boşluğu dolduruyoruz.",
       "stat1Value": "%100",
       "stat1Label": "Kalite kontrolü",
       "stat2Value": "7/24",
@@ -98,7 +98,7 @@
       "badge": "Mühendislik mükemmelliği",
       "title": "Mühendislik mükemmelliği ve küresel servis",
       "lead": "Yüksek hassasiyetli otomasyon ve dünya standartlarında teknik hizmetlerle endüstrinin geleceğini şekillendiriyoruz. Teknik vizyon ile endüstriyel gerçeklik arasındaki boşluğu kapatıyoruz.",
-      "imageAlt": "Hassas mühendislik atölyesi"
+      "imageAlt": "Mühendislik çizimi, dişliler, kumpas ve hassas araçlar"
     },
     "mission": {
       "title": "Endüstriyel uzmanlığımız",

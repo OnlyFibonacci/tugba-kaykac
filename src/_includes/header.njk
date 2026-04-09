@@ -9,11 +9,10 @@
   {% set altUrl = altPrefix ~ "/contact/" %}
 {% endif %}
 <header>
-<nav class="fixed top-0 w-full z-50 bg-slate-50/80 dark:bg-slate-950/80 backdrop-blur-md shadow-sm dark:shadow-none">
-<div class="flex justify-between items-center max-w-7xl mx-auto px-6 h-20">
-<a href="{{ prefix }}/" class="flex items-center gap-3 md:gap-4 shrink-0 min-w-0">
-<img alt="{{ t.brand.full }}" class="h-10 w-auto" src="/logo.png" width="120" height="40"/>
-<span class="text-lg sm:text-xl font-extrabold tracking-tighter text-slate-900 dark:text-slate-50 font-headline uppercase truncate">{{ t.brand.full }}</span>
+<nav class="fixed top-0 w-full z-50 bg-white border-b border-slate-200/80 shadow-sm">
+<div class="flex justify-between items-center max-w-7xl mx-auto px-6 min-h-[5.5rem] py-3">
+<a href="{{ prefix }}/" class="flex items-center shrink-0 min-w-0">
+<img alt="{{ t.brand.full }}" class="h-14 sm:h-16 md:h-[4.25rem] w-auto max-h-[4.5rem]" src="/logo.png" width="200" height="72"/>
 </a>
 <div class="hidden md:flex items-center space-x-8 font-manrope tracking-tight font-bold uppercase text-sm">
 <a class="{% if pageId == 'home' %}text-teal-700 dark:text-teal-400 border-b-2 border-teal-700 dark:border-teal-400 pb-1{% else %}text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200 transition-colors{% endif %}" href="{{ prefix }}/">{{ t.nav.home }}</a>

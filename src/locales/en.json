@@ -27,7 +27,7 @@
     "copyrightSuffix": "Precision Industrial Excellence.",
     "madeBy": "Made by SaruPixel",
     "phoneDisplay": "0 533 300 18 96",
-    "email": "info@tugbakaykac.com",
+    "email": "tugbakaykac@gmail.com",
     "serviceLinks": [
       { "label": "Automation Systems", "hrefKey": "homeServices" },
       { "label": "Technical Consulting", "hrefKey": "contact" },
@@ -76,12 +76,12 @@
       ]
     },
     "aboutPreview": {
-      "imageAlt": "Technical Precision",
+      "imageAlt": "Technical blueprint, precision tools and engineering components",
       "refLabel": "Precision Ref. 0402",
       "kicker": "Institutional Authority",
       "title": "Engineering Trust with Absolute Precision.",
-      "body": "At Tuğba Kaykaç Mühendislik, our commitment to precision and reliability isn't just a standard—it's our identity. We bridge the gap between complex industrial challenges and sustainable technical excellence.",
-      "quote": "\"Mühendislikte güven ve mutlak hassasiyet bizim kimliğimizdir. Karmaşık endüstriyel zorluklar ile sürdürülebilir teknik mükemmellik arasındaki boşluğu dolduruyoruz.\"",
+      "body": "Mühendislikte güven ve mutlak hassasiyet bizim kimliğimizdir. Karmaşık endüstriyel zorluklar ile sürdürülebilir teknik mükemmellik arasındaki boşluğu dolduruyoruz.",
+      "quote": "",
       "stat1Value": "100%",
       "stat1Label": "Quality Control",
       "stat2Value": "24/7",
@@ -98,7 +98,7 @@
       "badge": "Engineering Excellence",
       "title": "Engineering Excellence & Global Service",
       "lead": "Driving the future of industry with high-precision automation and world-class technical services. We bridge the gap between technical vision and industrial reality.",
-      "imageAlt": "Precision Engineering Workshop"
+      "imageAlt": "Engineering blueprint, gears, caliper and precision tools"
     },
     "mission": {
       "title": "Our Industrial Specialization",

@@ -7,7 +7,7 @@ permalink: /en/index.html
 ---
 {% set prefix = "/en" %}
 <main>
-<section class="relative min-h-[921px] flex items-center pt-20 overflow-hidden bg-primary">
+<section class="relative min-h-[921px] flex items-center pt-24 overflow-hidden bg-primary">
 <div class="absolute inset-0 opacity-40">
 <img alt="{{ t.home.hero.heroImgAlt }}" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAwmEgJPG9wGAUU8AeI3yfQN2BEUMm1HxxYabLRnuN86pcSy0TNO_pwrSlZJQ8yrU1RO_v56U24Uv_xwSqcFfPiY0JC7bTO7VSsH6DCkfa2Cq7F1XIxROjqcRz54OsY3QxuR6EdLWrAmbkgftxLNoQpl-PARIsGwKzO4Atc6PYsAkRNqNrrDtklndhh5nBTEhLycU2YUufHKg4E0YF4O5qHrHHuCM3g6jnku1an_DCnYsrki6RVYZbmEucy4MGCpk2464202kmMYvkO"/>
 </div>
@@ -65,7 +65,7 @@ permalink: /en/index.html
 <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 <div class="relative order-2 lg:order-1">
 <div class="aspect-[4/5] bg-surface-container-high relative overflow-hidden border border-outline-variant/20">
-<img alt="{{ t.home.aboutPreview.imageAlt }}" class="w-full h-full object-cover grayscale opacity-80 hover:grayscale-0 transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBsptRRGt_IK7yMVGYwPww_hbE83aR5jWM8U5MwLt9o57du00BzhRuF8TJJs-V-rJSnrMtYsWRfF1APk2MkTqIjbtbhAODUbOlrcm5-AOKWvzLtL8P1mI6eZVh7ggyH7YF4nVOaDHkSW2TxoziE67zRcPPItRxs6C-JmNyqp7C3XnYLBKn_CWZkJ_ire9VDrqyif8LTNoYpk7GGPeeuB9vAREXDXT6xKAZQyi76nkc42_m0mXIzRTpfzF94OOMl2UNpGcpqoLXFaQIR"/>
+<img alt="{{ t.home.aboutPreview.imageAlt }}" class="w-full h-full object-cover grayscale opacity-80 hover:grayscale-0 transition-all duration-700" src="/images/engineering-blueprint.png"/>
 <div class="absolute inset-0 bg-primary/10 mix-blend-multiply"></div>
 </div>
 <div class="absolute -bottom-6 -right-6 w-48 h-48 bg-secondary/10 backdrop-blur-sm border border-secondary/20 p-6 hidden md:block">
@@ -81,7 +81,7 @@ permalink: /en/index.html
 </div>
 <div class="space-y-6">
 <p class="text-on-surface font-body text-lg leading-relaxed">{{ t.home.aboutPreview.body }}</p>
-<p class="text-on-surface-variant font-body italic border-l-4 border-secondary/30 pl-6">{{ t.home.aboutPreview.quote }}</p>
+{% if t.home.aboutPreview.quote %}<p class="text-on-surface-variant font-body italic border-l-4 border-secondary/30 pl-6">{{ t.home.aboutPreview.quote }}</p>{% endif %}
 </div>
 <div class="mt-12 grid grid-cols-2 gap-8">
 <div>
