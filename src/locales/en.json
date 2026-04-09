@@ -44,7 +44,7 @@
       "badge": "Industrial Excellence",
       "titleHtml": "Global Solutions in <span class=\"text-secondary-fixed\">Industrial Automation</span> and Spare Parts",
       "lead": "We specialize in industrial automation, global technical services, and high-quality spare parts supply.",
-      "leadSecondary": "Endüstriyel otomasyon, global teknik servis ve yüksek kaliteli yedek parça tedariği konusunda uzmanız.",
+      "leadSecondary": "Your partner for automation, on-site and remote technical support, and dependable spare parts worldwide.",
       "ctaPrimary": "Our Services",
       "ctaSecondary": "Technical Specs",
       "heroImgAlt": "Industrial Automation"
@@ -52,25 +52,25 @@
     "servicesSection": {
       "title": "Precision Services",
       "subtitle": "Engineering solutions tailored for the next generation of industrial efficiency.",
-      "subtitleSecondary": "Endüstriyel verimliliğin yeni nesli için tasarlanmış mühendislik çözümleri.",
+      "subtitleSecondary": "Designed for the next generation of industrial productivity and uptime.",
       "counter": "01—03",
       "cards": [
         {
           "title": "Industrial Automation",
           "body": "Advanced control systems and PLC integration for seamless manufacturing workflows.",
-          "footer": "Endüstriyel Otomasyon",
+          "footer": "Industrial Automation",
           "icon": "settings_input_component"
         },
         {
           "title": "Global Technical Services",
           "body": "On-site expertise and remote diagnostics for international industrial infrastructures.",
-          "footer": "Global Teknik Servis",
+          "footer": "Global Technical Services",
           "icon": "public"
         },
         {
           "title": "Spare Parts Supply",
           "body": "Reliable sourcing of high-performance components for critical industrial machinery.",
-          "footer": "Yedek Parça Tedariği",
+          "footer": "Spare Parts Supply",
           "icon": "inventory_2"
         }
       ]
@@ -80,7 +80,7 @@
       "refLabel": "Precision Ref. 0402",
       "kicker": "Institutional Authority",
       "title": "Engineering Trust with Absolute Precision.",
-      "body": "Mühendislikte güven ve mutlak hassasiyet bizim kimliğimizdir. Karmaşık endüstriyel zorluklar ile sürdürülebilir teknik mükemmellik arasındaki boşluğu dolduruyoruz.",
+      "body": "Trust and absolute precision in engineering define who we are. We bridge the gap between complex industrial challenges and sustainable technical excellence.",
       "quote": "",
       "stat1Value": "100%",
       "stat1Label": "Quality Control",
