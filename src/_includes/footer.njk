@@ -1,0 +1,43 @@
+{% from "macros.njk" import resolveHref %}
+{% set prefix = "/" ~ locale %}
+<footer class="w-full border-t border-slate-200 dark:border-slate-800 bg-slate-100 dark:bg-slate-900">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12 max-w-7xl mx-auto px-8 py-16">
+<div class="md:col-span-1">
+<span class="text-lg font-black text-slate-900 dark:text-slate-50 uppercase tracking-widest mb-6 block">{{ t.brand.short }}</span>
+<p class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed font-inter">
+{{ t.footer.tagline }}
+</p>
+</div>
+<div>
+<h4 class="text-slate-900 dark:text-slate-50 font-bold mb-6 text-sm uppercase tracking-widest">{{ t.footer.servicesTitle }}</h4>
+<ul class="space-y-4 text-sm font-inter">
+{% for item in t.footer.serviceLinks %}
+<li><a class="text-slate-500 dark:text-slate-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors" href="{{ resolveHref(item.hrefKey, prefix) }}">{{ item.label }}</a></li>
+{% endfor %}
+</ul>
+</div>
+<div>
+<h4 class="text-slate-900 dark:text-slate-50 font-bold mb-6 text-sm uppercase tracking-widest">{{ t.footer.connectTitle }}</h4>
+<ul class="space-y-4 text-sm font-inter">
+{% for item in t.footer.connectLinks %}
+<li>
+{% if item.hrefKey == "tel" %}
+<a class="text-slate-500 dark:text-slate-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors" href="{{ resolveHref('tel', prefix) }}">{{ item.display }}</a>
+{% elif item.hrefKey == "contact" %}
+<a class="text-slate-500 dark:text-slate-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors" href="{{ resolveHref('contact', prefix) }}">{{ item.label }}</a>
+{% else %}
+<a class="text-slate-500 dark:text-slate-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors" href="{{ item.href }}">{{ item.label }}</a>
+{% endif %}
+</li>
+{% endfor %}
+<li><a class="text-slate-500 dark:text-slate-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors" href="mailto:{{ t.footer.email }}">{{ t.footer.email }}</a></li>
+</ul>
+</div>
+</div>
+<div class="max-w-7xl mx-auto px-8 py-8 border-t border-slate-200 dark:border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-slate-500 dark:text-slate-400 text-sm font-inter text-center md:text-left">
+© <span data-site-year></span> {{ t.footer.copyrightName }}. {{ t.footer.copyrightSuffix }}
+</p>
+<a class="text-slate-500 dark:text-slate-400 hover:text-teal-600 dark:hover:text-teal-400 text-sm transition-colors" href="https://sarupixel.com" target="_blank" rel="noopener noreferrer">{{ t.footer.madeBy }}</a>
+</div>
+</footer>

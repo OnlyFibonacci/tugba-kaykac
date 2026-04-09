@@ -1,0 +1,46 @@
+{% set prefix = "/" ~ locale %}
+{% set altLocale = "tr" if locale == "en" else "en" %}
+{% set altPrefix = "/" ~ altLocale %}
+{% if pageId == "home" %}
+  {% set altUrl = altPrefix ~ "/" %}
+{% elif pageId == "about" %}
+  {% set altUrl = altPrefix ~ "/about/" %}
+{% else %}
+  {% set altUrl = altPrefix ~ "/contact/" %}
+{% endif %}
+<header>
+<nav class="fixed top-0 w-full z-50 bg-slate-50/80 dark:bg-slate-950/80 backdrop-blur-md shadow-sm dark:shadow-none">
+<div class="flex justify-between items-center max-w-7xl mx-auto px-6 h-20">
+<a href="{{ prefix }}/" class="flex items-center gap-3 md:gap-4 shrink-0 min-w-0">
+<img alt="{{ t.brand.full }}" class="h-10 w-auto" src="/logo.png" width="120" height="40"/>
+<span class="text-lg sm:text-xl font-extrabold tracking-tighter text-slate-900 dark:text-slate-50 font-headline uppercase truncate">{{ t.brand.full }}</span>
+</a>
+<div class="hidden md:flex items-center space-x-8 font-manrope tracking-tight font-bold uppercase text-sm">
+<a class="{% if pageId == 'home' %}text-teal-700 dark:text-teal-400 border-b-2 border-teal-700 dark:border-teal-400 pb-1{% else %}text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200 transition-colors{% endif %}" href="{{ prefix }}/">{{ t.nav.home }}</a>
+<a class="{% if pageId == 'about' %}text-teal-700 dark:text-teal-400 border-b-2 border-teal-700 dark:border-teal-400 pb-1{% else %}text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200 transition-colors{% endif %}" href="{{ prefix }}/about/">{{ t.nav.about }}</a>
+<a class="{% if pageId == 'contact' %}text-teal-700 dark:text-teal-400 border-b-2 border-teal-700 dark:border-teal-400 pb-1{% else %}text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200 transition-colors{% endif %}" href="{{ prefix }}/contact/">{{ t.nav.contact }}</a>
+</div>
+<div class="flex items-center gap-2 sm:gap-4">
+<a href="{{ altUrl }}" class="hidden sm:inline-flex text-xs font-label tracking-widest text-on-surface-variant font-bold border border-outline-variant/30 px-2 py-1 rounded hover:bg-surface-container-high transition-colors" hreflang="{{ altLocale }}">{{ t.lang.label }}</a>
+<button type="button" class="md:hidden inline-flex items-center justify-center p-2 rounded text-slate-900 dark:text-slate-100 border border-outline-variant/30 hover:bg-surface-container-high" data-mobile-nav-toggle aria-expanded="false" aria-controls="mobile-nav-panel">
+<span class="material-symbols-outlined text-2xl" aria-hidden="true">menu</span>
+<span class="sr-only">Menu</span>
+</button>
+</div>
+</div>
+</nav>
+<div id="mobile-nav-panel" class="fixed inset-0 z-40 md:hidden pointer-events-none" data-mobile-nav-root hidden>
+<div class="absolute inset-0 bg-primary/40 opacity-0 transition-opacity duration-300" data-mobile-nav-backdrop aria-hidden="true"></div>
+<div class="absolute top-0 right-0 h-full w-[min(100%,20rem)] bg-surface-container-lowest shadow-xl border-l border-outline-variant/20 translate-x-full transition-transform duration-300 flex flex-col pt-24 px-6 pb-8" data-mobile-nav-drawer>
+<nav class="flex flex-col gap-1 font-manrope font-bold uppercase text-sm" aria-label="Primary">
+<a class="py-3 border-b border-outline-variant/15 {% if pageId == 'home' %}text-teal-700{% else %}text-slate-700{% endif %}" href="{{ prefix }}/">{{ t.nav.home }}</a>
+<a class="py-3 border-b border-outline-variant/15 {% if pageId == 'about' %}text-teal-700{% else %}text-slate-700{% endif %}" href="{{ prefix }}/about/">{{ t.nav.about }}</a>
+<a class="py-3 border-b border-outline-variant/15 {% if pageId == 'contact' %}text-teal-700{% else %}text-slate-700{% endif %}" href="{{ prefix }}/contact/">{{ t.nav.contact }}</a>
+</nav>
+<div class="mt-8 pt-6 border-t border-outline-variant/20">
+<p class="text-xs font-label tracking-widest text-on-surface-variant mb-3">{{ t.lang.label }}</p>
+<a class="inline-flex w-full justify-center text-xs font-bold tracking-widest border border-outline-variant/30 px-3 py-2 rounded hover:bg-surface-container-high" href="{{ altUrl }}" hreflang="{{ altLocale }}">{{ t.lang.switchToEn if locale == 'tr' else t.lang.switchToTr }}</a>
+</div>
+</div>
+</div>
+</header>

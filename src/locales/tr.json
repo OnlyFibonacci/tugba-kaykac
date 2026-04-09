@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "siteTitle": "Tuğba Kaykaç Mühendislik | Endüstriyel Otomasyon Mükemmelliği",
+    "homeTitle": "Tuğba Kaykaç Mühendislik | Endüstriyel Otomasyon Mükemmelliği",
+    "aboutTitle": "Hakkımızda | Tuğba Kaykaç Mühendislik",
+    "contactTitle": "İletişim | Tuğba Kaykaç Mühendislik"
+  },
+  "brand": {
+    "short": "TK MÜHENDİSLİK",
+    "full": "Tuğba Kaykaç Mühendislik"
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "contact": "İletişim"
+  },
+  "lang": {
+    "label": "EN / TR",
+    "switchToEn": "English",
+    "switchToTr": "Türkçe"
+  },
+  "footer": {
+    "tagline": "Teknolojik ustalık ve sarsılmaz güvenilirlikle endüstriyel standartları yeniden tanımlıyoruz.",
+    "servicesTitle": "Hizmetler",
+    "connectTitle": "Bağlantı",
+    "copyrightName": "Tuğba Kaykaç Mühendislik",
+    "copyrightSuffix": "Hassas endüstriyel mükemmellik.",
+    "madeBy": "Made by SaruPixel",
+    "phoneDisplay": "0 533 300 18 96",
+    "email": "info@tugbakaykac.com",
+    "serviceLinks": [
+      { "label": "Otomasyon Sistemleri", "hrefKey": "homeServices" },
+      { "label": "Teknik Danışmanlık", "hrefKey": "contact" },
+      { "label": "Parça Envanteri", "hrefKey": "homeServices" }
+    ],
+    "connectLinks": [
+      { "label": "LinkedIn", "href": "#" },
+      { "label": "İletişim Desteği", "hrefKey": "contact" },
+      { "label": "Telefon", "hrefKey": "tel", "display": "0 533 300 18 96" }
+    ]
+  },
+  "home": {
+    "hero": {
+      "badge": "Endüstriyel Mükemmellik",
+      "titleHtml": "<span class=\"text-secondary-fixed\">Endüstriyel otomasyon</span> ve yedek parçada küresel çözümler",
+      "lead": "Endüstriyel otomasyon, küresel teknik servis ve yüksek kaliteli yedek parça tedariği konusunda uzmanız.",
+      "leadSecondary": "We specialize in industrial automation, global technical services, and high-quality spare parts supply.",
+      "ctaPrimary": "Hizmetlerimiz",
+      "ctaSecondary": "Teknik Özellikler",
+      "heroImgAlt": "Endüstriyel otomasyon"
+    },
+    "servicesSection": {
+      "title": "Hassas Hizmetler",
+      "subtitle": "Yeni nesil endüstriyel verimlilik için tasarlanmış mühendislik çözümleri.",
+      "subtitleSecondary": "Engineering solutions tailored for the next generation of industrial efficiency.",
+      "counter": "01—03",
+      "cards": [
+        {
+          "title": "Endüstriyel Otomasyon",
+          "body": "Kesintisiz üretim akışları için gelişmiş kontrol sistemleri ve PLC entegrasyonu.",
+          "footer": "Industrial Automation",
+          "icon": "settings_input_component"
+        },
+        {
+          "title": "Küresel Teknik Servis",
+          "body": "Uluslararası endüstriyel altyapılar için saha uzmanlığı ve uzaktan tanı.",
+          "footer": "Global Technical Services",
+          "icon": "public"
+        },
+        {
+          "title": "Yedek Parça Tedariği",
+          "body": "Kritik endüstriyel makineler için yüksek performanslı bileşenlerin güvenilir tedariki.",
+          "footer": "Spare Parts Supply",
+          "icon": "inventory_2"
+        }
+      ]
+    },
+    "aboutPreview": {
+      "imageAlt": "Teknik hassasiyet",
+      "refLabel": "Hassasiyet Ref. 0402",
+      "kicker": "Kurumsal otorite",
+      "title": "Mutlak hassasiyetle mühendislik güveni.",
+      "body": "Tuğba Kaykaç Mühendislik olarak hassasiyet ve güvenilirlik taahhüdümüz yalnızca bir standart değil—kimliğimizdir. Karmaşık endüstriyel zorluklar ile sürdürülebilir teknik mükemmellik arasındaki boşluğu dolduruyoruz.",
+      "quote": "\"Our commitment to precision and reliability isn't just a standard—it's our identity.\"",
+      "stat1Value": "%100",
+      "stat1Label": "Kalite kontrolü",
+      "stat2Value": "7/24",
+      "stat2Label": "Teknik destek"
+    },
+    "partners": {
+      "title": "Dünya çapında ortaklar",
+      "lead": "Teknik uzmanlığımızın sınırı yok. Yerel hassasiyet ve küresel bakış açısıyla kıtalar arası endüstriyel devlere hizmet veriyoruz.",
+      "regions": ["Avrupa", "Asya", "Orta Doğu", "Amerika"]
+    }
+  },
+  "about": {
+    "hero": {
+      "badge": "Mühendislik mükemmelliği",
+      "title": "Mühendislik mükemmelliği ve küresel servis",
+      "lead": "Yüksek hassasiyetli otomasyon ve dünya standartlarında teknik hizmetlerle endüstrinin geleceğini şekillendiriyoruz. Teknik vizyon ile endüstriyel gerçeklik arasındaki boşluğu kapatıyoruz.",
+      "imageAlt": "Hassas mühendislik atölyesi"
+    },
+    "mission": {
+      "title": "Endüstriyel uzmanlığımız",
+      "p1": "Tuğba Kaykaç Mühendislik olarak, yüksek karmaşıklıktaki <span class=\"text-primary font-semibold\">endüstriyel otomasyon</span> ve kapsamlı teknik hizmetler konusunda uzmanız. Yaklaşımımız, üretkenliği optimize eden ve arıza sürelerini en aza indiren ısmarlama mühendislik çözümleri sunmak için en son teknolojiyi on yıllık uzmanlıkla birleştirir.",
+      "p2": "Küresel pazarlarda <span class=\"text-secondary font-bold italic\">güvenilir çözümler</span> sunmaktan gurur duyuyoruz. Mekanik sorun gidermeden yazılım entegrasyonuna kadar ekibimiz, operasyonlarınızın teknik ortamın ön saflarında kalmasını sağlar. <span class=\"text-primary font-semibold\">Kaliteli yedek parça</span> kataloğumuz, üstlendiğimiz her proje için uzun vadeli dayanıklılığı garanti eder."
+    },
+    "values": {
+      "kicker": "Temel ilkeler",
+      "title": "Temel değerlerimiz",
+      "precisionTitle": "Hassasiyet",
+      "precisionBody": "Her milimetre önemlidir. Mühendislik felsefemiz, endüstriyel çizim ve teknik uygulamanın mutlak doğruluğuna dayanır.",
+      "reliabilityTitle": "Güvenilirlik",
+      "reliabilityBody": "Güvenilir sistemler, sağlam parçalar ve tüm operasyonlarda sarsılmaz destek.",
+      "innovationTitle": "İnovasyon",
+      "innovationBody": "Bugünün endüstriyel zorlukları için yarının teknolojilerini uyarlamak.",
+      "globalTitle": "Küresel ağ",
+      "globalBody": "Kusursuz lojistik ve sınır ötesi uzmanlıkla uluslararası ortaklara hizmet vermek üzere stratejik konumlandırma."
+    },
+    "cta": {
+      "title": "Başarı için bir mühendislik planına mı ihtiyacınız var?",
+      "body": "Endüstriyel otomasyon ihtiyaçlarınızı değerlendirmek ve optimize çözümler keşfetmek için teknik uzmanlarımızla görüşün.",
+      "button": "Hemen iletişime geçin"
+    }
+  },
+  "contact": {
+    "hero": {
+      "kicker": "İletişim bilgileri / Contact Information",
+      "title": "Küresel ekibimizle iletişime geçin",
+      "lead": "Kıtalar arası mühendislik hassasiyeti. Teknik danışmanlık veya endüstriyel çözümler arıyor olun, uzmanlarımız yardıma hazır.",
+      "sideTitle": "7/24",
+      "sideSubtitle": "Teknik destek",
+      "heroImgAlt": "Endüstriyel projeler ve ölçüm aletleri"
+    },
+    "office": {
+      "hqTitle": "Merkez",
+      "addressHtml": "Maslak İş Merkezi, Kule 3<br/>İstanbul, Türkiye 34485",
+      "commTitle": "İletişim",
+      "phoneLabel": "T:",
+      "emailLabel": "E:"
+    },
+    "map": {
+      "statusLabel": "Küresel erişim durumu",
+      "statusText": "14 ülkede aktif operasyon"
+    },
+    "specs": {
+      "ref": "REF: TK-2024-C",
+      "response": "Yanıt süresi",
+      "responseValue": "< 4 saat",
+      "radius": "Hizmet alanı",
+      "radiusValue": "Küresel (sahada)",
+      "consult": "Danışmanlık",
+      "consultValue": "Ücretsiz ön görüşme"
+    }
+  }
+}

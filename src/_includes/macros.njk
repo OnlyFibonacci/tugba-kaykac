@@ -1,0 +1,11 @@
+{#
+  Footer ve diğer yerlerde href anahtarlarını çözer.
+  hrefKey: homeServices | contact | tel
+#}
+{% macro resolveHref(hrefKey, prefix) -%}
+  {%- if hrefKey == "homeServices" -%}{{ prefix }}/#services
+  {%- elif hrefKey == "contact" -%}{{ prefix }}/contact/
+  {%- elif hrefKey == "tel" -%}tel:+905333001896
+  {%- else -%}#
+  {%- endif -%}
+{%- endmacro %}

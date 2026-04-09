@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "siteTitle": "Tuğba Kaykaç Mühendislik | Industrial Automation Excellence",
+    "homeTitle": "Tuğba Kaykaç Mühendislik | Industrial Automation Excellence",
+    "aboutTitle": "About Us | Tuğba Kaykaç Mühendislik",
+    "contactTitle": "Contact | Tuğba Kaykaç Mühendislik"
+  },
+  "brand": {
+    "short": "TK MÜHENDİSLİK",
+    "full": "Tuğba Kaykaç Mühendislik"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "lang": {
+    "label": "EN / TR",
+    "switchToEn": "English",
+    "switchToTr": "Türkçe"
+  },
+  "footer": {
+    "tagline": "Redefining industrial standards through technological mastery and unwavering reliability.",
+    "servicesTitle": "Services",
+    "connectTitle": "Connect",
+    "copyrightName": "Tuğba Kaykaç Mühendislik",
+    "copyrightSuffix": "Precision Industrial Excellence.",
+    "madeBy": "Made by SaruPixel",
+    "phoneDisplay": "0 533 300 18 96",
+    "email": "info@tugbakaykac.com",
+    "serviceLinks": [
+      { "label": "Automation Systems", "hrefKey": "homeServices" },
+      { "label": "Technical Consulting", "hrefKey": "contact" },
+      { "label": "Parts Inventory", "hrefKey": "homeServices" }
+    ],
+    "connectLinks": [
+      { "label": "LinkedIn", "href": "#" },
+      { "label": "Contact Support", "hrefKey": "contact" },
+      { "label": "Phone", "hrefKey": "tel", "display": "0 533 300 18 96" }
+    ]
+  },
+  "home": {
+    "hero": {
+      "badge": "Industrial Excellence",
+      "titleHtml": "Global Solutions in <span class=\"text-secondary-fixed\">Industrial Automation</span> and Spare Parts",
+      "lead": "We specialize in industrial automation, global technical services, and high-quality spare parts supply.",
+      "leadSecondary": "Endüstriyel otomasyon, global teknik servis ve yüksek kaliteli yedek parça tedariği konusunda uzmanız.",
+      "ctaPrimary": "Our Services",
+      "ctaSecondary": "Technical Specs",
+      "heroImgAlt": "Industrial Automation"
+    },
+    "servicesSection": {
+      "title": "Precision Services",
+      "subtitle": "Engineering solutions tailored for the next generation of industrial efficiency.",
+      "subtitleSecondary": "Endüstriyel verimliliğin yeni nesli için tasarlanmış mühendislik çözümleri.",
+      "counter": "01—03",
+      "cards": [
+        {
+          "title": "Industrial Automation",
+          "body": "Advanced control systems and PLC integration for seamless manufacturing workflows.",
+          "footer": "Endüstriyel Otomasyon",
+          "icon": "settings_input_component"
+        },
+        {
+          "title": "Global Technical Services",
+          "body": "On-site expertise and remote diagnostics for international industrial infrastructures.",
+          "footer": "Global Teknik Servis",
+          "icon": "public"
+        },
+        {
+          "title": "Spare Parts Supply",
+          "body": "Reliable sourcing of high-performance components for critical industrial machinery.",
+          "footer": "Yedek Parça Tedariği",
+          "icon": "inventory_2"
+        }
+      ]
+    },
+    "aboutPreview": {
+      "imageAlt": "Technical Precision",
+      "refLabel": "Precision Ref. 0402",
+      "kicker": "Institutional Authority",
+      "title": "Engineering Trust with Absolute Precision.",
+      "body": "At Tuğba Kaykaç Mühendislik, our commitment to precision and reliability isn't just a standard—it's our identity. We bridge the gap between complex industrial challenges and sustainable technical excellence.",
+      "quote": "\"Mühendislikte güven ve mutlak hassasiyet bizim kimliğimizdir. Karmaşık endüstriyel zorluklar ile sürdürülebilir teknik mükemmellik arasındaki boşluğu dolduruyoruz.\"",
+      "stat1Value": "100%",
+      "stat1Label": "Quality Control",
+      "stat2Value": "24/7",
+      "stat2Label": "Technical Support"
+    },
+    "partners": {
+      "title": "Partners Worldwide",
+      "lead": "Our technical expertise knows no borders. We serve industrial giants across multiple continents with local precision and global perspective.",
+      "regions": ["Europe", "Asia", "Middle East", "Americas"]
+    }
+  },
+  "about": {
+    "hero": {
+      "badge": "Engineering Excellence",
+      "title": "Engineering Excellence & Global Service",
+      "lead": "Driving the future of industry with high-precision automation and world-class technical services. We bridge the gap between technical vision and industrial reality.",
+      "imageAlt": "Precision Engineering Workshop"
+    },
+    "mission": {
+      "title": "Our Industrial Specialization",
+      "p1": "At Tuğba Kaykaç Mühendislik, we specialize in high-complexity <span class=\"text-primary font-semibold\">industrial automation</span> and comprehensive technical services. Our approach integrates cutting-edge technology with decade-long expertise to deliver bespoke engineering solutions that optimize productivity and minimize downtime.",
+      "p2": "We pride ourselves on providing <span class=\"text-secondary font-bold italic\">Reliable Solutions</span> across global markets. From mechanical troubleshooting to software integration, our team ensures your operations remain at the forefront of the technical landscape. Our catalog of <span class=\"text-primary font-semibold\">Quality Spare Parts</span> guarantees long-term durability for every project we undertake."
+    },
+    "values": {
+      "kicker": "Core Foundations",
+      "title": "Our Core Values",
+      "precisionTitle": "Precision",
+      "precisionBody": "Every millimeter counts. Our engineering philosophy is rooted in the absolute accuracy of industrial drafting and technical execution.",
+      "reliabilityTitle": "Reliability",
+      "reliabilityBody": "Dependable systems, robust parts, and unwavering support across all operations.",
+      "innovationTitle": "Innovation",
+      "innovationBody": "Adapting tomorrow's technologies for today's industrial challenges.",
+      "globalTitle": "Global Network",
+      "globalBody": "Strategically located to serve international partners with seamless logistics and cross-border expertise."
+    },
+    "cta": {
+      "title": "Need an Engineering Blueprint for Success?",
+      "body": "Consult with our technical experts to evaluate your industrial automation needs and discover optimized solutions.",
+      "button": "Connect Now"
+    }
+  },
+  "contact": {
+    "hero": {
+      "kicker": "Contact Information / İletişim Bilgileri",
+      "title": "Get in Touch with Our Global Team",
+      "lead": "Engineering precision across continents. Whether you are seeking technical consultation or industrial solutions, our experts are ready to assist.",
+      "sideTitle": "24/7",
+      "sideSubtitle": "Technical Support",
+      "heroImgAlt": "Industrial blueprints and precision tools"
+    },
+    "office": {
+      "hqTitle": "Headquarters",
+      "addressHtml": "Maslak Business District, Tower 3<br/>Istanbul, Turkey 34485",
+      "commTitle": "Communication",
+      "phoneLabel": "T:",
+      "emailLabel": "E:"
+    },
+    "map": {
+      "statusLabel": "Global Reach Status",
+      "statusText": "Active Deployment In 14 Countries"
+    },
+    "specs": {
+      "ref": "REF: TK-2024-C",
+      "response": "Response Time",
+      "responseValue": "< 4 Hours",
+      "radius": "Service Radius",
+      "radiusValue": "Global (On-site)",
+      "consult": "Consultation",
+      "consultValue": "Complimentary"
+    }
+  }
+}
